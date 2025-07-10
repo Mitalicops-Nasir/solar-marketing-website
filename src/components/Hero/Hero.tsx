@@ -1,7 +1,7 @@
 
 import './hero.css'
 import phone from '../../assets/icons/phone-fill.svg'
-import hero from '../../assets/images/worker-1.jpeg'
+import hero from '../../assets/images/Worker-1.jpeg'
 import pin from '../../assets/icons/map-pin-fill.svg'
 
 const Hero = () => {
