@@ -1,0 +1,61 @@
+
+.contact-form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 7rem;
+  }
+  
+  .contact-form form {
+    position: relative;
+    width: 600px;
+  }
+  
+  form input,
+  form textarea {
+    width: 100%;
+    padding: 20px;
+    border: none;
+    outline: none;
+    box-shadow: 0 0 5px var(--main-color);
+    background: #2d343f;
+    color: var(--text-color);
+    margin-bottom: 20px;
+    border-radius: 8px;
+  }
+  
+  form input::placeholder,
+  form textarea::placeholder {
+    color: #aeaeae;
+    font-size: 15px;
+  }
+  
+
+  form h5 {
+    font-size: 1rem;
+    font-weight: 600;
+    color: var(--primary-color);
+    letter-spacing: 1px;
+    margin-bottom: 5px;
+  }
+
+  form h2 {
+    font-weight: 700;
+    color: #ffff;
+    font-size: 2.3rem;
+    margin-bottom: 2rem;
+  }
+
+  form p {
+   color: #ffff;
+   font-weight: 600;
+   font-size: 1.1rem;
+   margin-bottom: 1rem;
+  }
+
+  .copyright p {
+    text-align: center;
+    padding: 20px;
+    color: #979797;
+    font-size: 15px;
+  }

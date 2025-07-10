@@ -1,0 +1,144 @@
+.features {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  align-items: center;
+}
+
+.feature-img img {
+  width: 80%;
+  height: auto;
+  border-radius: 1rem 1rem 11rem;
+}
+
+.feature-text h5 {
+  font-size: 1rem;
+  font-weight: 500;
+  color: var(--primary-color);
+  letter-spacing: 1px;
+  margin-bottom: 20px;
+}
+
+.feature-text h2 {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #ffff;
+  line-height: 1.2;
+  margin-bottom: 25px;
+}
+
+.feature-text p {
+  font-size: var(--p-font);
+  font-weight: 500;
+  line-height: 30px;
+  color: #ffffffab;
+  margin-bottom: 35px;
+}
+
+.btn {
+  display: inline-block;
+  padding: 12px 25px;
+  font-size: 15px;
+  font-weight: 400;
+  color: #fff;
+  background: var(--primary-color);
+  border-radius: 10px;
+  border: 2px solid var(--primary-color);
+  margin-right: 2rem;
+  transition: all 0.5s ease;
+}
+
+.btn:hover {
+  background: transparent;
+  border: 2px solid var(--primary-color);
+  color: #ffffff;
+}
+
+.feature-info {
+  border-radius: 10px;
+
+  display: flex;
+  flex-direction: column;
+  background-color: transparent; 
+  flex-wrap: nowrap;
+}
+
+.feature-box {
+  border-radius: 1rem;
+  transition: all ease 0.55s;
+  cursor: pointer;
+  flex: 1; 
+  margin: 10px; 
+  transition: all 0.5s ease-in-out; 
+}
+
+.feature-box:hover {
+  transform: scale(1.2) translateY(10px);
+}
+
+.feature-box img {
+  height: auto;
+  width: 7%;
+}
+
+.feature-box h3 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-bottom: 7px;
+  color: #ffffff;
+}
+
+.feature-box p {
+  font-size: 1rem;
+  font-weight: 300;
+}
+
+@media (max-width: 800px) {
+  .features {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 1060px) {
+  .features {
+    grid-template-columns: 1fr;
+  }
+  .feature-img {
+    text-align: center;
+  }
+  .feature-img img {
+    width: 350px;
+    height: auto;
+  }
+  .feature-text {
+    margin-top: 50px;
+    text-align: center;
+    order: 1;
+  }
+  .feature-text h2 {
+    margin-bottom: 50px;
+  }
+  .feature-text p {
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 576px) {
+  .feature-text h2 {
+    font-size: 40px;
+  }
+  .feature-text h3 {
+    font-size: 20px;
+  }
+  .feature-text p {
+    margin-bottom: 20px;
+     font-size: 1rem;
+  }
+  .features {
+    gap: 10px;
+  }
+
+  .feature-img img {
+    width: 250px;
+    height: auto;
+  }
+}

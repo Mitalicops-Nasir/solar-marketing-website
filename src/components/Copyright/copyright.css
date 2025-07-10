@@ -1,0 +1,34 @@
+.copyright {
+  text-align: center;
+}
+
+.copyright-1 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 10px;
+  align-items: center;
+}
+
+.copyright-1 p {
+  color: #aeaeae;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.copy-1,
+.copy-2 {
+  color: var(--primary-color);
+  text-decoration: underline;
+  font-size: 14px;
+  font-weight: 500;
+  display: block;
+  transition: all 0.5s ease-in-out;
+}
+
+.copy-1:hover,
+.copy-2:hover {
+  color: #fff;
+  transition: all 0.5s ease-in-out;
+}
